@@ -1,8 +1,4 @@
-a=int(input('введите первое число'))
-b=int(input('введите второе число'))
-if a >b:
-    print('a больше б')
-elif a<b:
-    print('a меньше б')
-else:
-    print('а равно б')
+n = int(input("enter a number"))
+for a in range(1, n + 1):
+    print(a)
+
